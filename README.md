@@ -1,4 +1,4 @@
-# T-RemotEye 인증 프로그램
+# SDK DVT(Development Validation Test) 검수 프로그램
 
 본 인증프로그램은 SKT의 Smart[Fleet] 플랫폼 프로토콜을 따르는 ``GPS``, ``OBD`` 단말의 In/Out값이 명세에 맞게 데이터를 전송하는지 테스트하는 웹 기반의 프로그램입니다.
 
@@ -17,7 +17,7 @@
 3001 | 웹 서버 접속을 위한 포트
 1883 | MQTT 접속을 위한 포트
 1884 | 웹소켓 기반의 MQTT접속을 위한 포트 (웹서버에서 사용)
-8443 | MQTTS 접속을을 위한 포트
+8883 | MQTTS 접속을을 위한 포트
 
 1. OS에 맞는 인증프로그램 다운로드후 실행
 2. [http://localhost:3001](http://localhost:3001) 주소를 통해 인증 프로그램 접속
